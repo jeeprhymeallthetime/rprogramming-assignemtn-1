@@ -25,5 +25,8 @@ corr <- function(directory = 'specdata', threshold = 0){
     #print(paste(id[i],length(final[,1])))
 
   }
+  if(count ==1){
+    corvec <- numeric(0)
+  }
   corvec
 }
